@@ -1,0 +1,17 @@
+#include <iostream>
+using namespace std;
+
+
+
+int main() {
+  //cout << "\033[42m" << "|R|" << "\033[0m" << "test";
+
+
+  int count = 20;
+  for (int i = 1; i <= count; i++){
+    char ch = 'a';
+    string test = "text";
+    ch = test[0];
+    cout << i << " ";
+  }
+}
